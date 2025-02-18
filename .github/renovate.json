@@ -1,0 +1,21 @@
+{
+	"extends": ["config:recommended"],
+	"lockFileMaintenance": {
+		"enabled": true
+	},
+	"packageRules": [
+		{
+			"matchUpdateTypes": [
+				"minor",
+				"patch",
+				"pin",
+				"digest",
+				"devDependencies",
+				"lockFileMaintenance"
+			],
+			"groupName": "minor updates",
+			"automerge": true
+		}
+	],
+	"automergeType": "branch"
+}
