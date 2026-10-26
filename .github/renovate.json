@@ -5,13 +5,7 @@
 	},
 	"packageRules": [
 		{
-			"matchUpdateTypes": [
-				"minor",
-				"patch",
-				"pin",
-				"digest",
-				"lockFileMaintenance"
-			],
+			"matchUpdateTypes": ["minor", "patch", "pin", "digest", "lockFileMaintenance"],
 			"groupName": "minor updates",
 			"automerge": true
 		}
