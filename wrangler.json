@@ -1,7 +1,6 @@
 {
 	"name": "014708-xyz",
 	"compatibility_date": "2025-03-25",
-	"main": ".svelte-kit/cloudflare/_worker.js",
 	"build": {
 		"command": "pnpm run build"
 	},
